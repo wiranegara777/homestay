@@ -1,0 +1,45 @@
+page-bintan {
+
+    .toolbar-background-md {
+        border-color: #68a2ff;
+        background: #68a2ff;
+    }
+    .toolbar-title-md{
+        color: white;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+        background-color: transparent;
+    }
+    #scroll {
+        width:669px;
+        height:111px;
+        //margin:100px auto;
+        //background:#A3CBE0;
+        //border:2px solid #000;
+        overflow:auto;
+        white-space:nowrap;
+        //box-shadow:0 0 10px #000;
+        }
+        #scroll img {
+        margin:10px 5px 0 0;
+
+        }
+
+        h5.h5{
+            color:grey; 
+            text-align:center;
+          }
+
+    .image{
+        border-radius: 10px;
+        width: 100px;
+        height: 100px;  
+    }
+    p.pra{
+        margin-bottom: 1px;
+        font-size: 15px;
+        margin-left:15px; 
+        color:grey;
+    }
+}

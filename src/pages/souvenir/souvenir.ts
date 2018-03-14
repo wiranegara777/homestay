@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DetailSouvenirPage } from '../detail-souvenir/detail-souvenir';
 
 /**
  * Generated class for the SouvenirPage page.
@@ -21,5 +22,7 @@ export class SouvenirPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad SouvenirPage');
   }
-
+  souvenir(data){
+    this.navCtrl.push("DetailSouvenirPage", data);
+  }
 }
